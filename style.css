@@ -1,0 +1,114 @@
+.toolbar{
+    border:3px solid gray;
+    border-radius: 3px;
+    display:flex;
+    width:90vw;
+    margin:0 auto;
+    height:80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tool{
+    /* border:1px solid green; */
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.tool-image{
+    height:50px;
+}
+.colorBox{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width:250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.color{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+#red{
+    background-color: lightpink;
+}
+#green{
+    background-color: lightgreen;
+}
+#yellow{
+    background-color: yellow;
+}
+.sizeBox{
+    border: 1px solid blue;
+    /* background-color: black; */
+    width:130px;
+    height:30px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    display:none;
+    /* margin-right:50px; */
+}
+.size{
+    background-color: gray;
+    border-radius: 50%;
+}
+.size1{
+    height:10px;
+    width:10px;
+}
+.size2{
+    height:15px;
+    width:15px;
+}
+.size3{
+    height:20px;
+    width:20px;
+}
+.size4{
+    height:25px;
+    width:25px;
+}
+body{
+    margin:0px;
+}
+i{
+    font-size: 2.5rem;
+    margin-top:5px;
+}
+.close{
+    height:15px;
+    width:15px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.minimise{
+    margin-right: 5px;
+    height:15px;
+    width:15px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sticky{
+    width:175px;
+    height:175px;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:15%;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.textarea{
+    height:85%;
+    width:96.5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* border: none;
+    outline: none; */
+}
